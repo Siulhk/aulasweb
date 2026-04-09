@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cardapio</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        table{
+            width: 80%;
+            margin: auto;
+            background-color: beige;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            margin-top: 10px;
+        }
+        th{
+            background-color: darkkhaki;
+            border:2px solid darkgoldenrod;
+            padding: 16px;
+        }
+        td{
+            text-align: center;
+            border: 2px solid darkgoldenrod;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Tabela de Preços</caption>
+        <thead>
+            <tr>
+                <th>Tipo</th>
+                <th>Item</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">Alimento</td>
+                <td>Hamburguer</td>
+                <td>R$: 25,00</td>
+            </tr>
+            <tr>
+                <td>pizza</td>
+                <td>R$: 60,00</td>
+            </tr>
+            <tr>
+                <td>alface</td>
+                <td>R$: 625,00</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Bebida</td>
+                <td>Conhaque</td>
+                <td>R$: 85,00</td>
+            </tr>
+            <tr>
+                <td>Vodka</td>
+                <td>R$: 35,00</td>
+            </tr>
+            <tr>
+                <td>Água</td>
+                <td>R$: 925,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Valores sujeitos a alteração</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
